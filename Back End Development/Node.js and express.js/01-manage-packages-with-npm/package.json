@@ -1,14 +1,21 @@
 {
-  "name": "@script-coder/01-manage-packages-with-npm",
-  "version": "0.1.0",
+  "name": "@script_coder/01-manage-packages-with-npm",
+  "version": "0.2.0",
+  "description": "Test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "Alexandr",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vodorohelios/free-code-camp/tree/master/Back%20End%20Development/Node.js%20and%20express.js/01-manage-packages-with-npm"
+  },
   "keywords": [
     "js"
   ],
-  "description": ""
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
 }
